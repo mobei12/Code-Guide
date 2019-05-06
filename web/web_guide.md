@@ -26,31 +26,31 @@ Web前端作为开发团队中不可或缺的一部分，需要按照相关规�
 -   JavaScript命名规范：    
     -   变量命名    
         |类型|范例|   
-        |--|--|
-        |标准变量采用驼峰式命名|`var thisIsMyName;`|
-        |'ID'在变量名中全大写|`var goodID`|
-        |'URL'在变量名中全大写|`var reportURL;`|
-        |常量全大写，用下划线连接|`var MAX_COUNT = 10;`|
-        |jquery对象必须以'$'开头命名|`var $body = $('body');`|
+        |---|---|   
+        |标准变量采用驼峰式命名|`var thisIsMyName;`|    
+        |'ID'在变量名中全大写|`var goodID`| 
+        |'URL'在变量名中全大写|`var reportURL;`|    
+        |常量全大写，用下划线连接|`var MAX_COUNT = 10;`|    
+        |jquery对象必须以'$'开头命名|`var $body = $('body');`|  
     -   函数命名    
         **命名方式**：首字母小写驼峰式命名.如：`getData()`；
         **命名规则**：前缀为动词      
-        动词|含义|返回值
-        --|--|--
-        can|判断是否可执行某个动作|函数返回一个布尔值。`true|false`
-        has|判断是否含有某个值|函数返回一个布尔值。`true|false`
-        is|判断是否为某个值|函数返回一个布尔值。`true|false`
-        get|获取某个值|函数返回一个非布尔值
-        set|设置某个值|无返回值、返回是否设置成功或者返回链式对象
+        动词|含义|返回值    
+        |---|---|---|   
+        can|判断是否可执行某个动作|函数返回一个布尔值。`true|false`     
+        has|判断是否含有某个值|函数返回一个布尔值。`true|false`     
+        is|判断是否为某个值|函数返回一个布尔值。`true|false`      
+        get|获取某个值|函数返回一个非布尔值     
+        set|设置某个值|无返回值、返回是否设置成功或者返回链式对象   
 -   注释规范   
     常用注释关键字
-    注释名|语法|含义|示例
-    --|--|--|--
-    `@param`|`@param`参数名 {参数类型} 描述信息|描述参数的信息|`@param name {String}`传入名称
-    `@return`|`@return`{返回类型} 描述信息|描述返回值的信息|`@return{Boolean}true:`可执行;`false:`不可执行
-    `@auther`|`@author` 作者信息[附属信息：如日期]|描述此函数作者的信息|`@author 张三 2015/07/21`
-    `@version`|`@version XX.XX.XX`|描述此函数的版本号|`@version 1.0.3`
-
+    注释名|语法|含义|示例   
+    --|--|--|--     
+    `@param`|`@param`参数名 {参数类型} 描述信息|描述参数的信息|`@param name {String}`传入名称   
+    `@return`|`@return`{返回类型} 描述信息|描述返回值的信息|`@return{Boolean}true:`可执行;`false:`不可执行  
+    `@auther`|`@author` 作者信息[附属信息：如日期]|描述此函数作者的信息|`@author 张三 2015/07/21`   
+    `@version`|`@version XX.XX.XX`|描述此函数的版本号|`@version 1.0.3`  
+    
     -   js库级别需要功能描述、作者、版本信息、更新记录[使用说明 | demo案例]     
         示例：
         ```
