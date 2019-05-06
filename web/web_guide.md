@@ -25,13 +25,13 @@ Web前端作为开发团队中不可或缺的一部分，需要按照相关规�
     -   id采用驼峰式命名；“例：`myDialog `” 
 -   JavaScript命名规范：    
     -   变量命名    
-        类型|范例   
-        --|--
-        标准变量采用驼峰式命名|`var thisIsMyName;`
-        'ID'在变量名中全大写|`var goodID`
-        'URL'在变量名中全大写|`var reportURL;`
-        常量全大写，用下划线连接|`var MAX_COUNT = 10;`
-        jquery对象必须以'$'开头命名|`var $body = $('body');`
+        |类型|范例|   
+        |--|--|
+        |标准变量采用驼峰式命名|`var thisIsMyName;`|
+        |'ID'在变量名中全大写|`var goodID`|
+        |'URL'在变量名中全大写|`var reportURL;`|
+        |常量全大写，用下划线连接|`var MAX_COUNT = 10;`|
+        |jquery对象必须以'$'开头命名|`var $body = $('body');`|
     -   函数命名    
         **命名方式**：首字母小写驼峰式命名.如：`getData()`；
         **命名规则**：前缀为动词      
