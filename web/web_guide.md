@@ -60,24 +60,31 @@ Web前端作为开发团队中不可或缺的一部分，需要按照相关规�
         示例：
         ```
         /**  
-            * @author sien
-            * @description iframe父子页面通信之子页面接口 (单例模式)
-            * @version 20180101
-            * @notice 独立子页面中引入  (原生实现的功能页面,不支持动态加载js、css)
-            * 2018-01-17 添加延时处理，加载完app.config.json才初始化完毕，执行子页面入口方法
-            * 2018-04-10 计算子页面尺寸方法调整
+        * @author sien
+        * @description iframe父子页面通信之子页面接口 (单例模式)
+        * @version 20180101
+        * @notice 独立子页面中引入  (原生实现的功能页面,不支持动态加载js、css)
+        * 2018-01-17 添加延时处理，加载完app.config.json才初始化完毕，执行子页面入口方法
+        * 2018-04-10 计算子页面尺寸方法调整
         */
         ```
     -   方法级别需要功能描述、参数说明      
         示例：
         ```
         /**
-            * 子页面呼叫父框架消息提示方法   [tested]
-            * @param {消息内容} args 
-            * @param {可手动关闭} closable 
-            * @param {icon类型 or 图片地址} type 
-            * @param {关闭回调函数} callback 
+        * 子页面呼叫父框架消息提示方法   [tested]
+        * @param {消息内容} args 
+        * @param {可手动关闭} closable 
+        * @param {icon类型 or 图片地址} type 
+        * @param {关闭回调函数} callback 
         */
+        
+        /**
+            * @param {int} r 半径
+        * */
+        function getRoundArea(r){
+            return r*r*3.14
+        }
         ```
     -   语句级别注释要描述代码实现原因 or 原理，背后的考量是什么        
         示例：
@@ -134,7 +141,7 @@ Web前端作为开发团队中不可或缺的一部分，需要按照相关规�
     **3.    name**  
     **4.    data-***    
     **5.    src, for, type, href, value , max-length, max, min, pattern**   
-    **6.    placeholder, title, alt**   
+    **6.    placeholder, title, alt**       
     **7.    aria-*, role**  
     **8.    required, readonly, disabled**  
     **class**是为高可复用组件设计的，所以应处在第一位；     
