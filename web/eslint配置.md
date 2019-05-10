@@ -27,10 +27,11 @@ eslint-plugin-node@4.1.0
 ####	Eslint插件(编辑器提示错误)
 首先，打开 VSCode 扩展面板并搜索 ESLint 扩展，然后点击安装	
 ![eslint](../static/img/eslint.png)
-###	WebStorn安装
+###	webstorm安装
 -	webStorn(最新版)
 ####	Eslint插件
-file->setting->plgun
+-   点击settings->pluings ->搜索eslint-> Install安装 
+-   安装好之后，找到settings中ESLint，选中，就会进入配置页面，勾选Enable->第一项配置自己安装nodejs目录下node.exe,第二项配置当前项目中node_modules/.bin目录下的eslint.cmd，第三项改成.eslintrc.js 
 ##  在项目中使用
 -	全局安装，编译期检测报错。（方便以后不用重复安装，项目安装也可以这里就不赘述了）
 ```js
